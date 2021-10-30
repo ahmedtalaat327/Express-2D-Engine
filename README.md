@@ -1,4 +1,4 @@
-<div id="top"></div>
+
 <!--
 *** Thanks for checking out page. If you have a suggestion or intersted
 *** please fork the repo and create a pull request
