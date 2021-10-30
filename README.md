@@ -8,7 +8,7 @@
 ## About The Engine:</br>
 * Pure C sharp lang based on vector2 class .
 * Fully object oriented .
-* Can handle sprites from assets [basic one included] .
+* Can handle sprites from assets [basic one included in debug folder] .
 * All you need basic understand of what point means in 2D space .
 
 
