@@ -1,0 +1,7 @@
+C:\Users\AhmadHassan\source\repos\ExpressedEngine\ExpressedEngine\bin\Debug\ExpressedEngine.exe.config
+C:\Users\AhmadHassan\source\repos\ExpressedEngine\ExpressedEngine\bin\Debug\ExpressedEngine.exe
+C:\Users\AhmadHassan\source\repos\ExpressedEngine\ExpressedEngine\bin\Debug\ExpressedEngine.pdb
+C:\Users\AhmadHassan\source\repos\ExpressedEngine\ExpressedEngine\obj\Debug\ExpressedEngine.csprojAssemblyReference.cache
+C:\Users\AhmadHassan\source\repos\ExpressedEngine\ExpressedEngine\obj\Debug\ExpressedEngine.csproj.CoreCompileInputs.cache
+C:\Users\AhmadHassan\source\repos\ExpressedEngine\ExpressedEngine\obj\Debug\ExpressedEngine.exe
+C:\Users\AhmadHassan\source\repos\ExpressedEngine\ExpressedEngine\obj\Debug\ExpressedEngine.pdb

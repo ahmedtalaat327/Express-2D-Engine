@@ -1,0 +1,1 @@
+magick conveert logo.png -define icon:auto-resize=16,24,32,48,128,256 -compress zip exengine.ico
