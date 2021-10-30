@@ -27,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
 $ https://github.com/ahmedtalaat327/Express-2D-Engine.git
 ```
 <!-- QUIK PREV -->
-## Demo</br>
+## Demo 📺</br>
 
 ![EXEngine](https://user-images.githubusercontent.com/26097164/139534327-b897d9be-c11a-417d-8ce9-83768a8757ed.gif)
 
