@@ -19,6 +19,7 @@ This is an example of how you may give instructions on setting up your project l
 To get a local copy up and running follow these simple example steps.
 1. Clone the git project
 2. Commit your changes and mods using (Visual studio 2019 or higher).
+3. .NET framework 3.5 or higher is a must.
 
 ## Install by Cloning
 
