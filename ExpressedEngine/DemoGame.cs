@@ -53,7 +53,7 @@ namespace ExpressedEngine
 
 
         // This constructor will call BaseClass.BaseClass(int i)
-        public DemoGame() : base(new Vector2(700,700),"ExEngine")
+        public DemoGame() : base(new Vector2(700,700),"Express Engine - Demo")
         {
         }
 

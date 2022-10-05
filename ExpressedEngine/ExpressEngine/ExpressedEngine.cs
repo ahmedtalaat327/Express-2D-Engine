@@ -2,7 +2,6 @@
 
 using System.Windows.Forms;
 using System.Drawing;
-using System;
 using System.Threading;
 using System.Collections.Generic;
 
@@ -14,6 +13,20 @@ namespace ExpressedEngine.ExpressedEngine
         public Canvas()
         {
             this.DoubleBuffered = true;
+        }
+
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Canvas));
+            this.SuspendLayout();
+            // 
+            // Canvas
+            // 
+            this.ClientSize = new Size(284, 261);
+            this.Icon = ((Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Canvas";
+            this.ResumeLayout(false);
+
         }
     }
 

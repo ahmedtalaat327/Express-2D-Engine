@@ -13,3 +13,5 @@ C:\Users\ahmad\Desktop\GameSimple\Express-2D-Engine\ExpressedEngine\obj\Debug\Ex
 C:\Users\ahmad\Desktop\GameSimple\Express-2D-Engine\ExpressedEngine\obj\Debug\ExpressedEngine.csproj.CoreCompileInputs.cache
 C:\Users\ahmad\Desktop\GameSimple\Express-2D-Engine\ExpressedEngine\obj\Debug\ExpressedEngine.exe
 C:\Users\ahmad\Desktop\GameSimple\Express-2D-Engine\ExpressedEngine\obj\Debug\ExpressedEngine.pdb
+C:\Users\ahmad\Desktop\GameSimple\Express-2D-Engine\ExpressedEngine\obj\Debug\ExpressedEngine.ExpressedEngine.Canvas.resources
+C:\Users\ahmad\Desktop\GameSimple\Express-2D-Engine\ExpressedEngine\obj\Debug\ExpressedEngine.csproj.GenerateResource.cache

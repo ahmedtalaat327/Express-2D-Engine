@@ -49,14 +49,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DemoGame.cs" />
-    <Compile Include="ExpressedEngine\EngineHelpers.cs" />
-    <Compile Include="ExpressedEngine\ExpressedEngine.cs">
+    <Compile Include="ExpressEngine\EngineHelpers.cs" />
+    <Compile Include="ExpressEngine\ExpressedEngine.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ExpressedEngine\Log.cs" />
-    <Compile Include="ExpressedEngine\Shape2D.cs" />
-    <Compile Include="ExpressedEngine\Sprite2D.cs" />
-    <Compile Include="ExpressedEngine\Vector2.cs" />
+    <Compile Include="ExpressEngine\Log.cs" />
+    <Compile Include="ExpressEngine\Shape2D.cs" />
+    <Compile Include="ExpressEngine\Sprite2D.cs" />
+    <Compile Include="ExpressEngine\Vector2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -65,6 +65,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="exengine.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ExpressEngine\ExpressedEngine.resx">
+      <DependentUpon>ExpressedEngine.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
