@@ -10,14 +10,14 @@ namespace ExpressedEngine
     {
         readonly string[,] Map =
         {
-            {"g","g","g","g","g","g","b","g",".","g"},
-            {"g","c","g","c",".",".","g","c",".","g"},
-            {"g",".",".",".","E","c","c",".","c","g"},
-            {"g",".","P",".",".",".",".",".","g","g"},
-            {"g",".",".",".","b","g",".",".",".","g"},
-            {"g","g","g","E",".",".",".",".","c","g"},
-            {"g","c",".",".",".","E","g","c",".","g"},
-            {"g","g","g","g","g","g","g","b","g","g"}
+            {"g","g","g","g","g","g","b","g",".","g","g","g","g","g","b","g",".","g"},
+            {"g","c","g","c",".",".","g","c",".","c","g","c",".",".","g","c",".","g"},
+            {"g",".",".",".","E","c","c",".","c",".",".",".","E","c","c",".","c","g"},
+            {"g",".","P",".",".",".",".",".","g",".","g",".",".",".",".",".","g","g"},
+            {"g",".",".",".","b","g",".",".",".",".",".",".","b","g",".",".",".","g"},
+            {"g","g","g","E",".",".",".",".","c","g","g","E",".",".",".",".","c","g"},
+            {"g","c",".",".",".","E","g","c",".","c",".",".",".","E","g","c",".","g"},
+            {"g","g","g","g","g","g","g","b","g","g","g","g","g","g","g","b","g","g"}
         };
         bool UpDirection, DwnDirection, LeftDirection, RightDirecton;
         int HorizIncrementer, VerticIncrementer;
@@ -53,7 +53,7 @@ namespace ExpressedEngine
 
 
         // This constructor will call BaseClass.BaseClass(int i)
-        public DemoGame() : base(new Vector2(700,700),"Express Engine - Demo")
+        public DemoGame() : base(new Vector2(1300,700),"Express Engine - Demo")
         {
         }
 
@@ -187,8 +187,8 @@ namespace ExpressedEngine
                // MessageBox.Show("Game Over","You dead");
 
             }
-
-            if (Player.IsColliding("SolidBlock")!=null)
+            Sprite2D solidblock = Player.IsColliding("SolidBlock");
+            if (solidblock != null)
             {
                 Log.Info("Player is colliding with SolidBlcok!");
                 Player.Position.X = LastPositon.X;

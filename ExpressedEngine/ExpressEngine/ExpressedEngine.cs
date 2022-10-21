@@ -60,6 +60,7 @@ namespace ExpressedEngine.ExpressedEngine
             this.Window.KeyDown += Window_KeyDown;
             this.Window.KeyUp += Window_KeyUp;
             this.Window.FormClosing += Window_FormClosing;
+            //bug when windows move no solution untill now!
             //Looping redrawing in thread
             GameLoopThread = new Thread(GameLoop);
             GameLoopThread.Start();
@@ -70,6 +71,7 @@ namespace ExpressedEngine.ExpressedEngine
         private void Window_FormClosing(object sender, FormClosingEventArgs e)
         {
             GameLoopThread.Abort();
+            
         }
 
         private void Window_KeyUp(object sender, KeyEventArgs e)
